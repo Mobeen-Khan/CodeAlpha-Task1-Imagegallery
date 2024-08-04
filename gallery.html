@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Gallery</h1>
+        <div class="main-image-container">
+            <img id="mainImage" src="img3.jfif" alt="Main Image">
+            <div class="navigation-buttons">
+                <button onclick="previousImage()">&#10094;</button>
+                <button onclick="nextImage()">&#10095;</button>
+            </div>
+        </div>
+            <div class="text">
+                <p>
+                    An art gallery is a sanctuary for creativity, where diverse artworks converge to inspire and 
+                    evoke emotion. It offers a space for artists to share their visions
+                    and for visitors to <br> connect with the profound expressions of human experience.
+                </p>
+            </div>
+        <div class="thumbnail-container" id="thumbnails">
+            <img src="01.jpg" alt="Thumbnail 1">
+            <img src="2.jpg" alt="Thumbnail 2">
+            <img src="3.jpg" alt="Thumbnail 3">
+            <img src="4.jpg" alt="Thumbnail 4">
+            <img src="55.webp" alt="Thumbnail 5"> 
+            <img src="6.jpeg" alt="Thumbnail 6">
+            <img src="7.jpg" alt="Thumbnail 7">
+        </div>
+    </div>
+    <script src="gallery.js"></script>
+</body>
+</html>
